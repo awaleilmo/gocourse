@@ -15,21 +15,24 @@ type EmployeeApple struct {
 }
 
 func main() {
-	// pascal case
-	// Eg. CalculateArea, UserInfo, NewHTTPRequest
-	// structs, interface, enums
+	// PascalCase
+	// Eg, MyStruct, MyInterface, MyEnum
+
+	// camelCase
+	// Eg, myStruct, myInterface, myEnum
 
 	// snake_case
-	// Eg. calculate_area, user_info, new_http_request
+	// Eg, my_struct, my_interface, my_enum
+
+	// kebab-case
+	// Eg, my-struct, my-interface, my-enum
+
+	// Structs, interfaces, enums
 
 	// UPPERCASE
 	// Use case is Constants
 
-	// mixedCase
-	// Eg. javaScript, htmlDocument. isValid
-
 	const MAXRETRIES = 5
 	var employeeID = 1001
 	fmt.Println("Employee ID: ", employeeID)
-
 }

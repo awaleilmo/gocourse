@@ -12,22 +12,27 @@ func main() {
 	// count := 10
 	// lastName := "Smith"
 
-	middleName := "Mayor"
 	fmt.Println(middleName)
-
 	// Default values
 	// Numeric Types: 0
-	// Boolean Types: false
-	// String Types: ""
-	// Pointers, slices, maps, functions, and strucs: nil
+	// String: ""
+	// Boolean: false
+	// Pointer: nil
+	// Slice: nil
+	// Map: nil
+	// Channel: nil
+	// Struct: zero value for each field
+	// Array: zero value for each element
+	// Interface: nil
+	// Function: nil
 
 	// ---- SCOPE
 
-	// fmt.Println(firstname)
+	// fmt.Println(firstName)
 
 }
 
 func printname() {
-	firstname := "awal"
+	firstname := "Michel"
 	fmt.Println(firstname)
 }

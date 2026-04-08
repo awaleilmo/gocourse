@@ -1,0 +1,54 @@
+Logical Operators:
+
+    ! (Logical NOT)
+        Eg: !a
+        Note: !a sama dengan a == false
+    || (Logical OR)
+        Eg: a > b || b > c
+        Note: a || b akan bernilai true jika a atau b bernilai true
+    && (Logical AND)
+        Eg: a > b && b > c
+        Note: a && b akan bernilai true jika a dan b bernilai true
+
+Bitwise Operators:
+
+    & (Bitwise AND)
+        Eg: a & b
+        Note: a & b akan bernilai true jika a dan b bernilai true
+    | (Bitwise OR)
+        Eg: a | b
+        Note: a | b akan bernilai true jika a atau b bernilai true
+    ^ (Bitwise XOR)
+        Eg: a ^ b
+        Note: a ^ b akan bernilai true jika a atau b bernilai true
+    &^ (Bitwise AND NOT)
+        Eg: a &^ b
+        Note: a &^ b akan bernilai true jika a bernilai true dan b bernilai false
+    << (Bitwise Left Shift)
+        Eg: a << b
+        Note: a << b akan menggeser bit a ke kiri sebanyak b
+    >> (Bitwise Right Shift)
+        Eg: a >> b
+        Note: a >> b akan menggeser bit a ke kanan sebanyak b
+
+Relational Operators:
+
+    == (Sama dengan)
+        Eg: a == b
+        Note: a == b akan bernilai true jika a dan b bernilai sama
+    != (Tidak sama dengan)
+        Eg: a != b
+        Note: a != b akan bernilai true jika a dan b bernilai tidak sama
+    > (Lebih besar dari)
+        Eg: a > b
+        Note: a > b akan bernilai true jika a lebih besar dari b
+    < (Lebih kecil dari)
+        Eg: a < b
+        Note: a < b akan bernilai true jika a lebih kecil dari b
+    >= (Lebih besar dari atau sama dengan)
+        Eg: a >= b
+        Note: a >= b akan bernilai true jika a lebih besar dari atau sama dengan b
+    <= (Lebih kecil dari atau sama dengan)
+        Eg: a <= b
+        Note: a <= b akan bernilai true jika a lebih kecil dari atau sama dengan b
+
